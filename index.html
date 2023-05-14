@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <section class="container">
+    <div class="logo">
+        <img src="/to do app logo.svg" alt="to do app logo">
+    </div>
+    <h1 class="header">To Do App</h1>
+    <form class="new-task-container box">
+        <label>Add New Task</label>
+        <input type="text" id="new-task">
+        <input type="submit" id="add-task" value="Add Task">
+    </form>
+    <div class="incomplete-list box">
+        <h2>Incomplete Task List</h2>
+        <ul>
+            <li class="item">
+                <input type="checkbox"><label for="">Task Name</label>
+            </li>
+            <li class="item">
+                <input type="checkbox"><label for="">Task Name</label>
+            </li>
+            <li class="item">
+                <input type="checkbox"><label for="">Task Name</label>
+            </li>
+
+        </ul>
+    </div>
+    <div class="complete-list box">
+        <h2>Complete Task List</h2>
+    <ul>
+        <li class="item">Task Name <button class="delete">Delete</button></li>
+    </ul>
+    </div>
+    </section>
+    <script src="hellow.js"></script>
+</body>
+</html>
